@@ -1,7 +1,8 @@
 
 ## global-value
+Data is stored centrally in memory and can be used for get/set operations on multiple files.
 
-Installation:
+### Installation:
 
 ```js
 npm install global-value
@@ -12,10 +13,17 @@ npm install global-value
 ```js
 const gv = require('global-value');
 
-gv.set('image', {
-    src: 'xxx',
-    time: 'xxx',
+gv.set('data', {
+    name: 'xxx',
+    attr: {
+        title: 'abc',
+        url: 'http://xxx.com',
+    },
 });
 
-gv.get('image.src');
+gv.get('data.attr.title'); // abc
 ```
+
+
+
+
