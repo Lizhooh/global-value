@@ -1,17 +1,17 @@
 {
   "name": "global-value",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "app",
   "main": "index.js",
-  "dependencies": {
-  },
   "author": "lizhooh",
   "license": "MIT",
   "keywords": [
-
+    "global-value",
+    "global",
+    "value"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lizhooh/"
+    "url": "https://github.com/Lizhooh/global-value"
   }
 }

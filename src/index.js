@@ -46,10 +46,8 @@ function _set(key, value) {
     return this;
 }
 
-export const set = _get;
-export const get = _get;
-
-export default {
+module.exports = {
     get: _get,
     set: _set,
 }
+
